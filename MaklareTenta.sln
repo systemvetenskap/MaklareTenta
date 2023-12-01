@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaklareTenta", "MaklareTenta\MaklareTenta.csproj", "{1647160A-D3EF-47D9-A1AC-8951A6EBC041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser", "Klasser\Klasser.csproj", "{48367595-5B4A-4940-ABB3-E9ED664F722B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus", "Bonus\Bonus.csproj", "{2DD346A3-5E35-4308-877F-5F31192D439C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1647160A-D3EF-47D9-A1AC-8951A6EBC041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1647160A-D3EF-47D9-A1AC-8951A6EBC041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1647160A-D3EF-47D9-A1AC-8951A6EBC041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1647160A-D3EF-47D9-A1AC-8951A6EBC041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48367595-5B4A-4940-ABB3-E9ED664F722B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48367595-5B4A-4940-ABB3-E9ED664F722B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48367595-5B4A-4940-ABB3-E9ED664F722B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48367595-5B4A-4940-ABB3-E9ED664F722B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD346A3-5E35-4308-877F-5F31192D439C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD346A3-5E35-4308-877F-5F31192D439C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD346A3-5E35-4308-877F-5F31192D439C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD346A3-5E35-4308-877F-5F31192D439C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8D6E78B-649B-43DB-B51E-C6B3FCD74213}
+	EndGlobalSection
+EndGlobal
