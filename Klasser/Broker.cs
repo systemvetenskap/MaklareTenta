@@ -13,6 +13,7 @@ namespace Klasser
     class Broker
     {
         private List<RealEstate> _realEstates;
+        private List<RealEstate> _realEstatesSödermalm;
 
         public Broker()
         {
@@ -22,14 +23,24 @@ namespace Klasser
         {
             return realEstate.Area / realEstate.Rooms;
         }
-        public bool AddRealEstate(RealEstate realEstate)
+        public bool AddRealEstate(RealEstate realEstate, string geographicArea)
         {
+            switch (geographicArea)
+            {
+                case "Södermalm":
+                    break;
+                default:
+                    break;
+            }
             double ratio = CalculateRatio(realEstate);
+            int test = (int)ratio;
             if (ratio < 10 || ratio > 50)
             {
                 return false;
 
-            }int count = _realEstates.Count;
+            }
+            _realEstates.Add(realEstate);
+            int count = _realEstates.Count;
             realEstate.AddId(id: GetNextId());
             _realEstates.Add(realEstate);
             
@@ -62,10 +73,10 @@ namespace Klasser
         {
             _realEstates = new List<RealEstate>()
             {
-                new RealEstate() {Id=1, Address="Gågatan 22", Rooms=1, Area=57},
-                new RealEstate() {Id=4, Address="Strandvägen 1",  Rooms=6, Area=125},
-                new RealEstate() {Id=5, Address="Humlestigen 14", Rooms=5, Area=125 },
-                new RealEstate() {Id=9, Address="Ljunggatan 12 b", Rooms=1, Area=42 }
+                new RealEstate() {Address="Gågatan 22", Rooms=1, Area=57},
+                new RealEstate() {Address="Strandvägen 1",  Rooms=6, Area=125},
+                new RealEstate() {Address="Humlestigen 14", Rooms=5, Area=125 },
+                new RealEstate() {Address="Ljunggatan 12 b", Rooms=1, Area=42 }
             };
         }
 

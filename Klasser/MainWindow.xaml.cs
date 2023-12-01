@@ -33,9 +33,10 @@ namespace Klasser
             {
                 Address="Sågstigen 1",
                 Area=350,
-                Rooms=1
+                Rooms=10
             };
-            if(!_broker.AddRealEstate(estate))
+
+            if(!_broker.AddRealEstate(estate, "Södermalm"))
             {
                 MessageBox.Show("ogiltigt värde");
             }
